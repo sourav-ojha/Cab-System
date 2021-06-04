@@ -1,0 +1,181 @@
+[{
+  "_id": {
+    "$oid": "60b798a4bed638df01c10b0e"
+  },
+  "street": "khurda",
+  "scode": "khu"
+},{
+  "_id": {
+    "$oid": "60b7997ebed638df01c10b10"
+  },
+  "street": "jaanla",
+  "scode": "jan"
+},{
+  "_id": {
+    "$oid": "60b799d0bed638df01c10b11"
+  },
+  "street": "goharia",
+  "scode": "goh"
+},{
+  "_id": {
+    "$oid": "60b79a0bbed638df01c10b12"
+  },
+  "street": "tamando",
+  "scode": "tam"
+},{
+  "_id": {
+    "$oid": "60b79a2ebed638df01c10b13"
+  },
+  "street": "patrapada",
+  "scode": "patr"
+},{
+  "_id": {
+    "$oid": "60b79a7fbed638df01c10b14"
+  },
+  "street": "dnregalia sq",
+  "scode": "dns"
+},{
+  "_id": {
+    "$oid": "60b79ae6bed638df01c10b15"
+  },
+  "street": "iginia",
+  "scode": "igi"
+},{
+  "_id": {
+    "$oid": "60b79b1bbed638df01c10b16"
+  },
+  "street": "khandagiri",
+  "scode": "kha"
+},{
+  "_id": {
+    "$oid": "60b79b42bed638df01c10b17"
+  },
+  "street": "barmunda",
+  "scode": "bar"
+},{
+  "_id": {
+    "$oid": "60b79b65bed638df01c10b18"
+  },
+  "street": "fire station",
+  "scode": "fir"
+},{
+  "_id": {
+    "$oid": "60b79b9ebed638df01c10b19"
+  },
+  "street": "crp square",
+  "scode": "crp"
+},{
+  "_id": {
+    "$oid": "60b79bf2bed638df01c10b1a"
+  },
+  "street": "nayapalli",
+  "scode": "nay"
+},{
+  "_id": {
+    "$oid": "60b79c22bed638df01c10b1b"
+  },
+  "street": "vani vihar",
+  "scode": "van"
+},{
+  "_id": {
+    "$oid": "60b79c42bed638df01c10b1c"
+  },
+  "street": "acharya vihar",
+  "scode": "ach"
+},{
+  "_id": {
+    "$oid": "60b79c83bed638df01c10b1d"
+  },
+  "street": "rassulgarh",
+  "scode": "ras"
+},{
+  "_id": {
+    "$oid": "60b79ca6bed638df01c10b1e"
+  },
+  "street": "patia square",
+  "scode": "pat"
+},{
+  "_id": {
+    "$oid": "60b79d02bed638df01c10b20"
+  },
+  "street": "vss nagar",
+  "scode": "vss"
+},{
+  "_id": {
+    "$oid": "60b79d1ebed638df01c10b21"
+  },
+  "street": "master canteen",
+  "scode": "mas"
+},{
+  "_id": {
+    "$oid": "60b79d4bbed638df01c10b22"
+  },
+  "street": "sum hospital rd",
+  "scode": "sum"
+},{
+  "_id": {
+    "$oid": "60b84f629def67109a8772f0"
+  },
+  "street": "saheed nagar",
+  "scode": "sah"
+},{
+  "_id": {
+    "$oid": "60b84f889def67109a8772f1"
+  },
+  "street": "dumduma",
+  "scode": "dum"
+},{
+  "_id": {
+    "$oid": "60b84fb39def67109a8772f2"
+  },
+  "street": "aiims hospital rd",
+  "scode": "aim"
+},{
+  "_id": {
+    "$oid": "60b84ff39def67109a8772f3"
+  },
+  "street": "iter chaak",
+  "scode": "ite"
+},{
+  "_id": {
+    "$oid": "60b850249def67109a8772f4"
+  },
+  "street": "jagamara",
+  "scode": "jag"
+},{
+  "_id": {
+    "$oid": "60b850569def67109a8772f5"
+  },
+  "street": "biju pattnaik international airport",
+  "scode": "air"
+},{
+  "_id": {
+    "$oid": "60b850b19def67109a8772f6"
+  },
+  "street": "chandaka",
+  "scode": "cha"
+},{
+  "_id": {
+    "$oid": "60b850f09def67109a8772f7"
+  },
+  "street": "pathargadia",
+  "scode": "path"
+},{
+  "_id": {
+    "$oid": "60b851669def67109a8772f8"
+  },
+  "street": "bmc sq",
+  "scode": "bmc"
+},{
+  "_id": {
+    "$oid": "60b851a49def67109a8772f9"
+  },
+  "street": "old town",
+  "scode": "old"
+},{
+  "_id": {
+    "$oid": "60b851c49def67109a8772fa"
+  },
+  "street": "kalpana sq",
+  "scode": "kal"
+}]

@@ -1,0 +1,60 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 696px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: xxx-large;
+}
+
+h5 {
+    color: rgba(255, 255, 95, 0.87);
+    font-size: larger;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    background-image: url('../static/img/c4.jpg');
+    height: 766px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.myInput {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px 8px;
+    margin: 10px 16px;
+    width: 350px;
+    outline: none;
+}
+
+.myForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#cars {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 8px 8px;
+    margin: 4px 16px;
+    outline: none;
+}
+
+.btn {
+    padding: 15px;
+    width: 150px;
+    margin: 13px auto;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: rgb(255 255 46);
+}

@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+      style 
+        include ../static/dashBoard.css
+  body
+    div#navbar  
+        ul 
+            div#logo 
+                img(src="/static/img/c1.png", alt="logo not found")
+            li #[a(href = "/") Driver Details]
+            li #[a(href = "/") Car Details]
+            li #[a(href = "/bookingrequest") Booking Requests]
+    section#secOne 
+        div.container 
+            h1 Admin Pannel        
+    footer#footer 
+        |   Copyright © 2021 www.wheelBox.com | All Rights Reserved.
+
+    script
+      include ../static/index.js  

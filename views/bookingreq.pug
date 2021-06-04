@@ -1,0 +1,34 @@
+h1 booking requests 
+table
+    tr 
+        th Id 
+        th Start 
+        th End
+        th Date-Time
+        th Car Class
+        th Phone
+        th status
+        th 
+    each data in  getacabList
+        tr 
+            td=data.id    
+            td=data.startDest    
+            td=data.endDest    
+            td=data.timeanddate    
+            td=data.cars  
+            td=data.phone 
+            if (data.status == true) 
+                td Accepted 
+            else if (data.status == false)    
+                td Rejected
+            else 
+                td pending
+            if (data.status == null) 
+                td
+                    a(href=`/booking/approve/?id=${data.id}`) 
+                        |   Approve  
+                    a(href=`/booking/reject/?id=${data.id}`) 
+                        |   Reject  
+                             
+script
+      include ../static/index.js           

@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleCab.css
+ 
+block content
+    div.container 
+        h5 YOU'RE IN SAFE HANDS 
+        h1 BEST CAB SERVICE 
+        form(action="/getacab", method="post", Class="myForm")
+            label(for="startDest" Class="myInput")  Start Destination
+            select(name='startDest', id='key' Class="myInput") 
+                each loc in locationList
+                    option(value= loc.street)= loc.street
+            label(for="endDest" Class="myInput")  End Destination
+            select(name='endDest', id='key' Class="myInput") 
+                each loc in locationList
+                    option(value= loc.street)= loc.street
+             
+            input(type="datetime-local", name="timeanddate", Class="myInput", placeholder="Time And Date") 
+            
+            select(name="cars", id="cars")
+                optgroup    
+                     
+                        option(value="eon") Eon 
+                        option(value="beat") Beat
+                optgroup
+                    span Prime
+                        option(value="xcent") Xcent
+                        option(value="swift") Swift
+                optgroup
+                    label(for="SUVs") SUVs  
+                        option(value="scorpio") Scorpio 
+                        option(value="bolero") Bolero
+
+            input(type="phone", name="phone", Class="myInput", placeholder="Your Phone")
+            button(Class="btn")  
+                | Book Now     

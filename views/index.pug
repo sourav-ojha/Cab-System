@@ -1,0 +1,50 @@
+doctype html
+html
+  head
+      style 
+        include ../static/style.css
+  body
+    div#navbar  
+        ul 
+            div#logo 
+                img(src="/static/img/c1.png", alt="logo not found")
+            li #[a(href = "/") Home]
+            li #[a(href = "/") About]
+            li #[a(href = "/") Fares]
+            li #[a(href = "/contact") Contact Us]
+        ul.login 
+            li #[a(href = "/login") Login]    
+            li #[a(href = "/register") Sign Up]    
+    section#sectionOne 
+        h1  Welcome To The World Of Comfortable Rides
+    section#sectionTwo 
+        h1  Our Mission
+        div.card 
+            h2  To provide comfortable rides 
+            div.card-box 
+                div.card-img
+                    img(src = '/static/img/t2.jpg')
+
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis architecto dolore veniam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae, laborum dicta id illo tempore.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum soluta provident a impedit voluptatibus temporibus voluptates reprehenderit aut dignissimos. Ad, nihil doloremque recusandae similique ea iste possimus magnam! Architecto, eveniet! 
+        div.card 
+            h2  To ensure safety 
+            div.card-box 
+                div.card-img
+                    img(src = '/static/img/t1.jpg')
+
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis architecto dolore veniam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae, laborum dicta id illo tempore.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum soluta provident a impedit voluptatibus temporibus voluptates reprehenderit aut dignissimos. Ad, nihil doloremque recusandae similique ea iste possimus magnam! Architecto, eveniet! 
+        div.card 
+            h2  Customer satisfaction 
+            div.card-box 
+                div.card-imgt
+                    img(src = '/static/img/t3.jpg')
+
+                div.card-content 
+                    p Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis architecto dolore veniam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae, laborum dicta id illo tempore.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum soluta provident a impedit voluptatibus temporibus voluptates reprehenderit aut dignissimos. Ad, nihil doloremque recusandae similique ea iste possimus magnam! Architecto, eveniet! 
+    footer#footer 
+        |   Copyright © 2021 www.wheelBox.com | All Rights Reserved.
+
+    script
+      include ../static/index.js

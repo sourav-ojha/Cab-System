@@ -1,0 +1,66 @@
+    @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Chela+One&family=Fjalla+One&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .container {
+        min-height: 639px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .container::before {
+        content: "";
+        position: absolute;
+        background-image: url('../static/img/s4.webp');
+        height: 728px;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        z-index: -1;
+        opacity: 1.8;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: 12px;
+        font-family: 'Cabin', sans-serif;
+        font-size: 33px;
+        color: #ffd79b;
+    }
+    
+    .myInput {
+        width: 500px;
+        padding: 6px;
+        margin: 5px;
+        font-size: 16px;
+        border: 2px solid black;
+        border-radius: 8px;
+        outline: none;
+    }
+    
+    .myForm {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .btn {
+        padding: 2px 25px;
+        border: 2px solid black;
+        outline: none;
+        border-radius: 5px;
+        background-color: #b6b6b6;
+        cursor: pointer;
+        margin: 10px;
+    }
+    
+    .content {
+        color: cornsilk;
+        text-align: center;
+        font-size: 18px;
+    }

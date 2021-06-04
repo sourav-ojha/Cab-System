@@ -1,0 +1,22 @@
+extends base2.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style
+        include ../static/style.css
+        include ../static/styleContact.css
+ 
+block content
+    div.container 
+        h1 Login As 
+        form(action="/login", method="post", Class="myForm")
+            select(name="choice")  
+                option(value="user") User 
+                option(value="admin") Admin 
+
+            input(type="email", name="email", Class="myInput", placeholder="Enter your email") 
+            input(type="password", name="password", Class="myInput", placeholder="Enter your password")
+            button(Class="btn")  
+                | Login
